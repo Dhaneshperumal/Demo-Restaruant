@@ -137,11 +137,44 @@
     }
     @media (max-width: 576px) {
     .bg {
-        background-size: cover;  /* Maintain cover on small screens */
+        background-size: cover; 
         background-position: center;
-        min-height: 100vh;  /* Ensure it always fills the viewport height */
+        min-height: 100vh; 
     }
 }
+.map-container {
+    width: 100%;
+    overflow: hidden;
+    padding: 0; 
+    margin: 0; 
+}
+
+@media (max-width: 576px) {
+    .head {
+        margin-top: 350px; 
+    }
+    .About {
+        margin-top: 150px; 
+    }
+}
+
+@media (max-width: 576px) {
+    .map-container {
+        width: 100%; 
+        height: 500px;
+        margin-bottom: 25px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .map-container {
+        width: 100%; 
+        height: 500px;
+        margin-bottom: 25px;
+    }
+}
+
 
   </style>
   <body
@@ -636,8 +669,8 @@
   <h1 class="text-center mt-lg-5 mb-lg-5 mt-md-1 mb-md-3">Contact Us</h1>
   <div class="container">
   <div class="row">
-    <div class="col-lg-6 mb-md-3 mb-sm-3">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3885.516903418547!2d80.11944717484428!3d13.129761837200356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3a5262f3bfda42df%3A0x50229b52b64b180b!2sVaishnavi%20Nagar%2C%20Chennai%20-%20Tiruttani%20Hwy%2C%20Siva%20Sankarapuram%2C%20Santhipuram%2C%20Thirumullaivoyal%2C%20Chennai%2C%20Tamil%20Nadu%20600109!3m2!1d13.1296074!2d80.1250613!4m5!1s0x3a5262f2d9838c65%3A0x30d22f051c0170de!2sVGN%20Stafford%20Road%2C%20Poompozhil%20Nagar%2C%20Avadi%2C%20Tamil%20Nadu!3m2!1d13.130142699999999!2d80.11898289999999!5e0!3m2!1sen!2sin!4v1723881405179!5m2!1sen!2sin" width="600" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="col-lg-6 mb-md-3 mb-sm-3 mb-xs-3 ">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3885.516903418547!2d80.11944717484428!3d13.129761837200356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3a5262f3bfda42df%3A0x50229b52b64b180b!2sVaishnavi%20Nagar%2C%20Chennai%20-%20Tiruttani%20Hwy%2C%20Siva%20Sankarapuram%2C%20Santhipuram%2C%20Thirumullaivoyal%2C%20Chennai%2C%20Tamil%20Nadu%20600109!3m2!1d13.1296074!2d80.1250613!4m5!1s0x3a5262f2d9838c65%3A0x30d22f051c0170de!2sVGN%20Stafford%20Road%2C%20Poompozhil%20Nagar%2C%20Avadi%2C%20Tamil%20Nadu!3m2!1d13.130142699999999!2d80.11898289999999!5e0!3m2!1sen!2sin!4v1723881405179!5m2!1sen!2sin" width="600" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map-container"></iframe>
     </div>
     <div class="col-lg-6 mb-md-3 mb-sm-3">
       <form action="#" class="formoutline">
@@ -727,6 +760,157 @@
 
 
 <!-- Footer section end -->
+
+<!-- js  -->
+<script>
+  const Colors = [
+    "aqua",
+    "aquamarine",
+    "beige",
+    "bisque",
+    "black",
+    "blue",
+    "blueviolet",
+    "brown",
+    "burlywood",
+    "cadetblue",
+    "chartreuse",
+    "chocolate",
+    "coral",
+    "cornflowerblue",
+    "crimson",
+    "cyan",
+    "darkblue",
+    "darkcyan",
+    "darkgoldenrod",
+    "darkgray",
+    "darkgreen",
+    "darkkhaki",
+    "darkmagenta",
+    "darkolivegreen",
+    "darkorange",
+    "darkorchid",
+    "darkred",
+    "darksalmon",
+    "darkseagreen",
+    "darkslateblue",
+    "darkslategray",
+    "darkturquoise",
+    "darkviolet",
+    "deeppink",
+    "deepskyblue",
+    "dimgray",
+    "dodgerblue",
+    "firebrick",
+    "forestgreen",
+    "fuchsia",
+    "gainsboro",
+    "gold",
+    "goldenrod",
+    "gray",
+    "green",
+    "greenyellow",
+    "hotpink",
+    "indianred",
+    "indigo",
+    "khaki",
+    "lavender",
+    "lawngreen",
+    "lemonchiffon",
+    "lightblue",
+    "lightcoral",
+    "lightcyan",
+    "lightgoldenrodyellow",
+    "lightgreen",
+    "lightgrey",
+    "lightpink",
+    "lightsalmon",
+    "lightseagreen",
+    "lightskyblue",
+    "lightslategray",
+    "lightsteelblue",
+    "lime",
+    "limegreen",
+    "linen",
+    "magenta",
+    "maroon",
+    "mediumaquamarine",
+    "mediumblue",
+    "mediumorchid",
+    "mediumpurple",
+    "mediumseagreen",
+    "mediumslateblue",
+    "mediumspringgreen",
+    "mediumturquoise",
+    "mediumvioletred",
+    "midnightblue",
+    "mintcream",
+    "mistyrose",
+    "moccasin",
+    "navajowhite",
+    "navy",
+    "navyblue",
+    "olive",
+    "olivedrab",
+    "orange",
+    "orangered",
+    "orchid",
+    "palegoldenrod",
+    "palegreen",
+    "paleturquoise",
+    "palevioletred",
+    "papayawhip",
+    "peachpuff",
+    "peru",
+    "pink",
+    "plum",
+    "powderblue",
+    "purple",
+    "red",
+    "rosybrown",
+    "royalblue",
+    "saddlebrown",
+    "salmon",
+    "sandybrown",
+    "seagreen",
+    "sienna",
+    "silver",
+    "skyblue",
+    "slateblue",
+    "slategray",
+    "snow",
+    "springgreen",
+    "steelblue",
+    "tan",
+    "teal",
+    "thistle",
+    "tomato",
+    "turquoise",
+    "violet",
+    "wheat",
+    "yellow",
+    "yellowgreen"
+]
+;
+
+const btn = document.getElementById("btn");
+const color = document.querySelector(".color");
+
+btn.addEventListener("click",function(){
+    const randomNumber = getRandomNumber();
+
+    document.body.style.backgroundColor = Colors[randomNumber];
+
+});
+
+function getRandomNumber(){
+
+    return Math.floor(Math.random()*Colors.length);
+}
+
+</script>
+
+<!-- js end -->
 <!-- Import js -->
  <script src="./food.js"></script>
     <!-- Bootstrap JS -->
