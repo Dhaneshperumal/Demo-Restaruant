@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Documents</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -82,11 +82,12 @@
       padding: 10px;
       color: white;
     }
-    /* @media only screen and (min-width:476px)  {
-      h1.About{
-        margin-top: 250px;
-      }
-    } */
+    @media only screen and (max-width: 576.98px) {
+    .About {
+        margin-top: 10%;
+    }
+}
+
     .head p{
       font-weight: 700;
       font-size: large;
@@ -134,6 +135,14 @@
       color: yellow;
       scale: 1.2;
     }
+    @media (max-width: 576px) {
+    .bg {
+        background-size: cover;  /* Maintain cover on small screens */
+        background-position: center;
+        min-height: 100vh;  /* Ensure it always fills the viewport height */
+    }
+}
+
   </style>
   <body
     class="bg img-fluid"
@@ -253,13 +262,13 @@
  <!-- color end  -->
       <h1 class="About   mb-5"><span style="font-weight: 700;">About</span></h1>
       <div class="container">
-       <div class="grid">
-        <div class="g-col-lg-5 g-col-md-12 aboutanimeimg g-col-xs-12 g-col-sm-12 g-start-lg-1 ">
+       <div class="row">
+        <div class="col-lg-5 col-md-12 col-12 aboutanimeimg">
           <img src="./img/restaurant- bg1.jpg" alt="Restaurant" class="img-fluid">
         </div>
 
         
-        <div class="g-col-lg-6 g-col-md-12 aboutanimecontent g-col-xs-12 g-col-sm-12 g-start-lg-7">
+        <div class="col-lg-5 col-md-12 col-12 aboutanimecontent">
           <h1 class=" mt-3 aboutcol mb-4"><span style="color:rgb(247, 239, 127); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">About Us</span></h1>
           <h2><span style="font-weight: 700;"> Best Restaurant</span></h2>
           <h2><span style="font-weight: 700;">  in Tainan City </span></h2>
