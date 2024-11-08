@@ -22,6 +22,7 @@
       href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Lilita+One&family=Pacifico&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <style>
    
@@ -38,7 +39,7 @@
    }
 
    /* Header anime */
-   .animehead{
+   /* .animehead{
     animation: Headanime 1.5s  0.5s  ease-in;
    }
    @keyframes Headanime {
@@ -48,12 +49,12 @@
     to{
       transform: translatex(0px);
     }
-   }
+   } */
 
    /* About section Anime */
 
 
-   .aboutanimeimg:hover{
+   /* .aboutanimeimg:hover{
     animation: Headanime 1.5s  0.5s  ease-in;
    }
    @keyframes Headanime {
@@ -75,7 +76,7 @@
     to{
       transform: translatex(0px);
     }
-   }
+   } */
    
     .head{
       margin-top: 200px;
@@ -178,547 +179,547 @@
 
   </style>
   <body
-    class="bg img-fluid"
-    style="
-      background-image: url(./img/hero-bg.jpg);
-      background-size: cover;
-      max-height: 100vh;
-      background-repeat: no-repeat;
-    "
-  >
- 
+  class="bg img-fluid"
+  style="
+    background-image: url(./img/hero-bg.jpg);
+    background-size: cover;
+    max-height: 100vh;
+    background-repeat: no-repeat;
+  "
+>
 
-   <!-- navbar start -->
-    <section id="Home ">
-      <nav class="navbar  navbar-expand-lg  bg-warning fixed-top ">
-        <div class="container">
-          <a class="navbar-brand navb fs-4" href="#"
-            ><img src="./img/favicon.png" width="50px" alt=""><span style="font-family: pacifico, cursive; font-size: larger; "
-              >Tainan Restobar</span
-            ></a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav  me-auto mb-2  ms-5 mb-lg-0">
-              <li class="nav-item ">
-                <a class="nav-link navb fw-bold active" aria-current="page" href="#header"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-bold navb" href="#About">About Us</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle navb fw-bold"
-                  href="#Menu"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Menu
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item navd" href="#Breakfast">Breakfast</a></li>
-                  <li><a class="dropdown-item navd" href="#Lunch">Lunch</a></li>
-                  <li><a class="dropdown-item navd" href="#Dinner">Dinner</a></li>
-                  <li class="dropdown-divider"></li>
-                  <li><a class="dropdown-item navd" href="#Starter">Starters</a></li>
-                  <li><a class="dropdown-item navd" href="#Desserts">Desserts</a></li>
-                </ul>
-                <li class="nav-item "><a href="#ContactUs" class="nav-link navb fw-bold">Contact Us</a></li>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    </section>
 
-    <!-- navbar end -->
-
-    <!-- Header Section start -->
-    <section id="header" class="mt-lg-5 animehead ms-lg-5 mt-sm-0 ms-sm-0 mt-md-0 ms-md-0">
+ <!-- navbar start -->
+  <section id="Home ">
+    <nav class="navbar  navbar-expand-lg  bg-warning fixed-top ">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 ">
-        <header class="head" >
-          <h1>
-            <span style="font-family: pacifico, cursive; font-size: larger"
-              >Tainan Restobar</span
-            >
-          </h1>
-          <p>
-            Tainan Restobar provides a warm and inviting atmosphere, featuring a
-            unique fusion of Taiwanese and international dishes. It's an ideal
-            spot for casual dining, social gatherings, and special occasions,
-            promising a delightful culinary experience with its diverse menu and
-            friendly service.
-          </p>
-          <button class="btn btn-warning">To Know More</button>
-        </header>
-      </div>
-      </div>
-      </div>
-    </section>
-    <!-- Header Section end -->
-
-     
-
-    <!-- About Section Start -->
-
-    <section id="About" >
-      <!-- color changing button   -->
-
- <button class="btn btn-warning  color" id="btn"><i class="fa fa-box"></i></button>
-
- <!-- color end  -->
-      <h1 class="About   mb-5"><span style="font-weight: 700;">About</span></h1>
-      <div class="container">
-       <div class="row">
-        <div class="col-lg-5 col-md-12 col-12 aboutanimeimg">
-          <img src="./img/restaurant- bg1.jpg" alt="Restaurant" class="img-fluid">
+        <a class="navbar-brand navb fs-4" href="#"
+          ><img src="./img/favicon.png" width="50px" alt=""><span style="font-family: pacifico, cursive; font-size: larger; "
+            >Tainan Restobar</span
+          ></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav  me-auto mb-2  ms-5 mb-lg-0">
+            <li class="nav-item ">
+              <a class="nav-link navb fw-bold active" aria-current="page" href="#header"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold navb" href="#About">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle navb fw-bold"
+                href="#Menu"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Menu
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item navd" href="#Breakfast">Breakfast</a></li>
+                <li><a class="dropdown-item navd" href="#Lunch">Lunch</a></li>
+                <li><a class="dropdown-item navd" href="#Dinner">Dinner</a></li>
+                <li class="dropdown-divider"></li>
+                <li><a class="dropdown-item navd" href="#Starter">Starters</a></li>
+                <li><a class="dropdown-item navd" href="#Desserts">Desserts</a></li>
+              </ul>
+              <li class="nav-item "><a href="#ContactUs" class="nav-link navb fw-bold">Contact Us</a></li>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
         </div>
-
-        
-        <div class="col-lg-5 col-md-12 col-12 aboutanimecontent">
-          <h1 class=" mt-3 aboutcol mb-4"><span style="color:rgb(247, 239, 127); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">About Us</span></h1>
-          <h2><span style="font-weight: 700;"> Best Restaurant</span></h2>
-          <h2><span style="font-weight: 700;">  in Tainan City </span></h2>
-          <p class="mt-4" style="line-height:2 ;">Welcome to Tainan Restobar! Nestled in the heart of the city, we pride ourselves on offering a delightful fusion of Taiwanese and international cuisine. Our mission is to create memorable dining experiences through exceptional food, warm ambiance, and friendly service. Whether you're here for a casual meal, a night out with friends, or a special celebration, Tainan Restobar is the perfect place to savor delicious flavors and create lasting memories. Join us and discover why Tainan Restobar is a beloved spot for both locals and visitors alike.</p>
-        <h3>Address :</h3>
-        <p style="line-height:2 ;" >ThirumullaivasanNagar Main Road, Thirumullaivoyal Village, AmbatturTaluk, Tirvallur District, Chennai, 600053.</p>
-        <p>+91 904262072</p>
-        
-        </div>
-
-       </div>
       </div>
-    </section>
+    </nav>
+  </section>
 
-         <!-- About Section end -->
+  <!-- navbar end -->
 
-         <!-- Menu Section Start -->
+  <!-- Header Section start -->
+  <section id="header" class="mt-lg-5 animehead ms-lg-5 mt-sm-0 ms-sm-0 mt-md-0 ms-md-0">
+    <div class="container">
+      <div class="row" data-aos="fade-right" data-aos-delay="500" data-aos-duration="900">
+        <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 ">
+      <header class="head" >
+        <h1>
+          <span style="font-family: pacifico, cursive; font-size: larger"
+            >Tainan Restobar</span
+          >
+        </h1>
+        <p>
+          Tainan Restobar provides a warm and inviting atmosphere, featuring a
+          unique fusion of Taiwanese and international dishes. It's an ideal
+          spot for casual dining, social gatherings, and special occasions,
+          promising a delightful culinary experience with its diverse menu and
+          friendly service.
+        </p>
+        <button class="btn btn-warning">To Know More</button>
+      </header>
+    </div>
+    </div>
+    </div>
+  </section>
+  <!-- Header Section end -->
 
-         <section id="Menu">
-<h1 class="text-center mt-5"><span style="font-weight: 700;">Menu</span></h1>
+   
+
+  <!-- About Section Start -->
+
+  <section id="About" >
+    <!-- color changing button   -->
+
+<button class="btn btn-warning  color" id="btn"><i class="fa fa-box"></i></button>
+
+<!-- color end  -->
+    <h1 class="About   mb-5" data-aos="fade-up" data-aos-delay="500" data-aos-duration="900"><span style="font-weight: 700;">About</span></h1>
+    <div class="container">
+     <div class="grid">
+      <div data-aos="fade-right" data-aos-delay="600" data-aos-duration="900" class="g-col-lg-5 g-col-md-12 aboutanimeimg g-col-xs-12 g-col-sm-12 g-start-lg-1 ">
+        <img src="./img/restaurant- bg1.jpg" alt="Restaurant" class="img-fluid">
+      </div>
+
+      
+      <div data-aos="fade-left" data-aos-delay="600" data-aos-duration="900" class="g-col-lg-6 g-col-md-12 aboutanimecontent g-col-xs-12 g-col-sm-12 g-start-lg-7">
+        <h1 class=" mt-3 aboutcol mb-4"><span style="color:rgb(247, 239, 127); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">About Us</span></h1>
+        <h2><span style="font-weight: 700;"> Best Restaurant</span></h2>
+        <h2><span style="font-weight: 700;">  in Tainan City </span></h2>
+        <p class="mt-4" style="line-height:2 ;">Welcome to Tainan Restobar! Nestled in the heart of the city, we pride ourselves on offering a delightful fusion of Taiwanese and international cuisine. Our mission is to create memorable dining experiences through exceptional food, warm ambiance, and friendly service. Whether you're here for a casual meal, a night out with friends, or a special celebration, Tainan Restobar is the perfect place to savor delicious flavors and create lasting memories. Join us and discover why Tainan Restobar is a beloved spot for both locals and visitors alike.</p>
+      <h3>Address :</h3>
+      <p style="line-height:2 ;" >ThirumullaivasanNagar Main Road, Thirumullaivoyal Village, AmbatturTaluk, Tirvallur District, Chennai, 600053.</p>
+      <p>+91 904262072</p>
+      
+      </div>
+
+     </div>
+    </div>
+  </section>
+
+       <!-- About Section end -->
+
+       <!-- Menu Section Start -->
+
+       <section id="Menu">
+<h1 data-aos="fade-up" data-aos-delay="500" data-aos-duration="900" class="text-center mt-5"><span style="font-weight: 700;">Menu</span></h1>
 <section id="Breakfast">
-  <h2 class="text-center mt-5 mb-4"><span style="font-family: pacifico;">Breakfast</span></h2>
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-6 col-md-12 col-sm-12 col-lg-6 ">
+<h2 class="text-center mt-5 mb-4" data-aos="fade-up" data-aos-delay="550" data-aos-duration="900"><span style="font-family: pacifico;">Breakfast</span></h2>
+<div class="container">
+  <div class="row">
+    <div data-aos="fade-right" data-aos-delay="600" data-aos-duration="900" class="col-xl-6 col-md-12 col-sm-12 col-lg-6 ">
+        <div class="single_delicious mb-5 d-flex align-items-center">
+            <div class="thumb">
+                <img src="./img/breakfast1.png" width="200px" alt="">
+            </div>
+            <div class="info">
+                <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Prawn Noodles</h3>
+                <p>Great way to make your business appear trust and relevant.</p>
+                <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating  fs-5" ></i>1354 reviews</p>
+                <h4 style="color: red;">-&#8377;210.00</h4>
+                <a href="#" class="btn btn-warning">Order</a>
+            </div>
+        </div>
+    </div>
+
+        <div data-aos="fade-left" data-aos-delay="600" data-aos-duration="900" class="col-xl-6 col-md-12 col-lg-6">
           <div class="single_delicious mb-5 d-flex align-items-center">
               <div class="thumb">
-                  <img src="./img/breakfast1.png" width="200px" alt="">
+                  <img src="./img/Fried-Chinese-Spring-Roll breakfast2.png" width="200px" alt="">
               </div>
               <div class="info">
-                  <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Prawn Noodles</h3>
+                  <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Egg Cuttlet</h3>
                   <p>Great way to make your business appear trust and relevant.</p>
-                  <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating  fs-5" ></i>1354 reviews</p>
+                  <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star  fs-5" ></i>1250 reviews</p>
+                  <h4 style="color: red;">-&#8377;129.00</h4>
+                  <a href="#" class="btn btn-warning">Order</a>
+              </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-right" data-aos-delay="600" data-aos-duration="900" class="col-xl-6 col-md-12 col-lg-6">
+          <div class="single_delicious mb-5 d-flex align-items-center">
+              <div class="thumb">
+                  <img src="./img/pngimg.com - breakfast3.png" width="200px" alt="">
+              </div>
+              <div class="info">
+                  <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Oyster Sandwich</h3>
+                  <p>Great way to make your business appear trust and relevant.</p>
+                  <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star  fs-5" ></i>963 reviews</p>
+                  <h4 style="color: red;">-&#8377;149.00</h4>
+                  <a href="#" class="btn btn-warning">Order</a>
+              </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-left" data-aos-delay="600" data-aos-duration="900" class="col-xl-6 col-md-12 col-lg-6 ">
+          <div class="single_delicious mb-5 d-flex align-items-center">
+              <div class="thumb">
+                  <img src="./img/breakfast4.png" width="200px" alt="">
+              </div>
+              <div class="info">
+                  <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Fish Burger</h3>
+                  <p>Great way to make your business appear trust and relevant.</p>
+                  <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating  fs-5" ></i>2150 reviews</p>
+                  <h4 style="color: red;">-&#8377;199.00</h4>
+                  <a href="#" class="btn btn-warning">Order</a>
+              </div>
+          </div>
+        </div>
+    </div>
+
+    <hr>
+
+    
+    <section id="Lunch">
+      <h2 data-aos="fade-up" data-aos-delay="500" data-aos-duration="900" class="text-center mt-4 mb-5"><span style="font-family: pacifico;">Lunch</span></h2>
+      <div class="row">
+        <div  data-aos="fade-right" data-aos-delay="600" data-aos-duration="900"class="col-xl-6 col-md-12 col-lg-6 ">
+          <div class="single_delicious mb-5 d-flex align-items-center">
+              <div class="thumb">
+                  <img src="./img/Lunch1.png" width="200px" alt="">
+              </div>
+              <div class="info">
+                  <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Crispy Shredded Beef</h3>
+                  <p>Great way to make your business appear trust and relevant.</p>
+                  <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star  fs-5" ></i>1659 reviews</p>
+                  <h4 style="color: red;">-&#8377;200.00</h4>
+                  <a href="#" class="btn btn-warning">Order</a>
+              </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-left" data-aos-delay="600" data-aos-duration="900" class="col-xl-6 col-md-12 col-lg-6 ">
+          <div class="single_delicious mb-5 d-flex align-items-center">
+              <div class="thumb">
+                  <img src="./img/Lunch2.png" width="200px" alt="">
+              </div>
+              <div class="info">
+                  <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Slurp Noodles</h3>
+                  <p>Great way to make your business appear trust and relevant.</p>
+                  <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating  fs-5" ></i>1836 reviews</p>
+                  <h4 style="color: red;">-&#8377;150.00</h4>
+                  <a href="#" class="btn btn-warning">Order</a>
+              </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-right" data-aos-delay="600" data-aos-duration="900" class="col-xl-6 col-md-12 col-lg-6 ">
+          <div class="single_delicious mb-5 d-flex align-items-center">
+              <div class="thumb">
+                  <img src="./img/Lunch3.png" width="200px" alt="">
+              </div>
+              <div class="info">
+                  <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Taiwanese Briyani</h3>
+                  <p>Great way to make your business appear trust and relevant.</p>
+                  <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star  fs-5" ></i>650 reviews</p>
+                  <h4 style="color: red;">-&#8377;255.00</h4>
+                  <a href="#" class="btn btn-warning">Order</a>
+              </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-left" data-aos-delay="600" data-aos-duration="900" class="col-xl-6 col-md-12 col-lg-6 ">
+          <div class="single_delicious mb-5 d-flex align-items-center">
+              <div class="thumb">
+                  <img src="./img/mixed-sushi-lunch4.jpg" width="200px" alt="">
+              </div>
+              <div class="info">
+                  <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Mixed Sushi set</h3>
+                  <p>Great way to make your business appear trust and relevant.</p>
+                  <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i>1348 reviews</p>
+                  <h4 style="color: red;">-&#8377;190.00</h4>
+                  <a href="#" class="btn btn-warning">Order</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section id="Dinner">
+      <h2 data-aos="fade-up" data-aos-delay="500" data-aos-duration="900" class="text-center mt-4 mb-5"><span style="font-family: pacifico;">Dinner</span></h2>
+      <div class="row">
+        <div data-aos="fade-right" data-aos-delay="600" data-aos-duration="900" class="col-xl-6 col-md-12 col-lg-6 ">
+          <div class="single_delicious mb-5 d-flex align-items-center">
+              <div class="thumb">
+                  <img src="./img/Dinner1.png" width="200px" alt="">
+              </div>
+              <div class="info">
+                  <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" > Ramen Bowl</h3>
+                  <p>Great way to make your business appear trust and relevant.</p>
+                  <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i>2589 reviews</p>
+                  <h4 style="color: red;">-&#8377;250.00</h4>
+                  <a href="#" class="btn btn-warning">Order</a>
+              </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-left" data-aos-delay="600" data-aos-duration="900" class="col-xl-6 col-md-12 col-lg-6 ">
+          <div class="single_delicious mb-5 d-flex align-items-center">
+              <div class="thumb">
+                  <img src="./img/tagliatelle-pasta-with-tomatoes-chicken dinner2.jpg" width="200px" alt="">
+              </div>
+              <div class="info">
+                  <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Tagliatelle Pasta </h3>
+                  <p>Great way to make your business appear trust and relevant.</p>
+                  <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star  fs-5" ></i>1731 reviews</p>
+                  <h4 style="color: red;">-&#8377;130.00</h4>
+                  <a href="#" class="btn btn-warning">Order</a>
+              </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-right" data-aos-delay="600" data-aos-duration="900" class="col-xl-6 col-md-12 col-lg-6 ">
+          <div class="single_delicious mb-5 d-flex align-items-center">
+              <div class="thumb">
+                  <img src="./img/dinner3.png" width="200px" alt="">
+              </div>
+              <div class="info">
+                  <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Teriyaki Ckicken Bowl</h3>
+                  <p>Great way to make your business appear trust and relevant.</p>
+                  <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating  fs-5" ></i>2156 reviews</p>
+                  <h4 style="color: red;">-&#8377;160.00</h4>
+                  <a href="#" class="btn btn-warning">Order</a>
+              </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-left" data-aos-delay="600" data-aos-duration="900" class="col-xl-6 col-md-12 col-lg-6 ">
+          <div class="single_delicious mb-5 d-flex align-items-center">
+              <div class="thumb">
+                  <img src="./img/Dinner4.png" width="200px" alt="">
+              </div>
+              <div class="info">
+                  <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Indomie Mi Goreng</h3>
+                  <p>Great way to make your business appear trust and relevant.</p>
+                  <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star  fs-5" ></i>1958 reviews</p>
                   <h4 style="color: red;">-&#8377;210.00</h4>
                   <a href="#" class="btn btn-warning">Order</a>
               </div>
           </div>
+        </div>
       </div>
+    </section>
 
-          <div class="col-xl-6 col-md-12 col-lg-6">
-            <div class="single_delicious mb-5 d-flex align-items-center">
-                <div class="thumb">
-                    <img src="./img/Fried-Chinese-Spring-Roll breakfast2.png" width="200px" alt="">
-                </div>
-                <div class="info">
-                    <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Egg Cuttlet</h3>
-                    <p>Great way to make your business appear trust and relevant.</p>
-                    <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star  fs-5" ></i>1250 reviews</p>
-                    <h4 style="color: red;">-&#8377;129.00</h4>
-                    <a href="#" class="btn btn-warning">Order</a>
-                </div>
-            </div>
-          </div>
+    <hr>
 
-          <div class="col-xl-6 col-md-12 col-lg-6">
-            <div class="single_delicious mb-5 d-flex align-items-center">
-                <div class="thumb">
-                    <img src="./img/pngimg.com - breakfast3.png" width="200px" alt="">
-                </div>
-                <div class="info">
-                    <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Oyster Sandwich</h3>
-                    <p>Great way to make your business appear trust and relevant.</p>
-                    <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star  fs-5" ></i>963 reviews</p>
-                    <h4 style="color: red;">-&#8377;149.00</h4>
-                    <a href="#" class="btn btn-warning">Order</a>
-                </div>
-            </div>
-          </div>
 
-          <div class="col-xl-6 col-md-12 col-lg-6 ">
-            <div class="single_delicious mb-5 d-flex align-items-center">
-                <div class="thumb">
-                    <img src="./img/breakfast4.png" width="200px" alt="">
-                </div>
-                <div class="info">
-                    <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Fish Burger</h3>
-                    <p>Great way to make your business appear trust and relevant.</p>
-                    <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating  fs-5" ></i>2150 reviews</p>
-                    <h4 style="color: red;">-&#8377;199.00</h4>
-                    <a href="#" class="btn btn-warning">Order</a>
-                </div>
-            </div>
+    <section id="Starter">
+      <h2 data-aos="fade-up" data-aos-delay="500" data-aos-duration="900" class="text-center mt-4 mb-5"><span style="font-family: pacifico;">Starters</span></h2>
+      <div class="row">
+        <div data-aos="fade-right" data-aos-delay="600" data-aos-duration="900" class="col-xl-6 col-md-12 col-lg-6 ">
+          <div class="single_delicious mb-5 d-flex align-items-center">
+              <div class="thumb">
+                  <img src="./img/Staer.png" width="200px" alt="">
+              </div>
+              <div class="info">
+                  <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Cutlery & Flatware Sets</h3>
+                  <p>Great way to make your business appear trust and relevant.</p>
+                  <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star fs-5" ></i><i class="fa fa-star  fs-5" ></i>1566 reviews</p>
+                  <h4 style="color: red;">-&#8377;110.00</h4>
+                  <a href="#" class="btn btn-warning">Order</a>
+              </div>
           </div>
+        </div>
+
+        <div data-aos="fade-left" data-aos-delay="600" data-aos-duration="900" class="col-xl-6 col-md-12 col-lg-6 ">
+          <div class="single_delicious mb-5 d-flex align-items-center">
+              <div class="thumb">
+                  <img src="./img/starter2.jpg" width="200px" alt="">
+              </div>
+              <div class="info">
+                  <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Grilled Chicken</h3>
+                  <p>Great way to make your business appear trust and relevant.</p>
+                  <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star  fs-5" ></i><i class="fa fa-star  fs-5" ></i><i class="fa fa-star  fs-5" ></i>788 reviews</p>
+                  <h4 style="color: red;">-&#8377;190.00</h4>
+                  <a href="#" class="btn btn-warning">Order</a>
+              </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-right" data-aos-delay="600" data-aos-duration="900" class="col-xl-6 col-md-12 col-lg-6 ">
+          <div class="single_delicious mb-5 d-flex align-items-center">
+              <div class="thumb">
+                  <img src="./img/Starter.png" width="200px" alt="">
+              </div>
+              <div class="info">
+                  <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Cicken Pokora</h3>
+                  <p>Great way to make your business appear trust and relevant.</p>
+                  <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star fs-5" ></i><i class="fa fa-star  fs-5" ></i>990 reviews</p>
+                  <h4 style="color: red;">-&#8377;100.00</h4>
+                  <a href="#" class="btn btn-warning">Order</a>
+              </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-left" data-aos-delay="600" data-aos-duration="900" class="col-xl-6 col-md-12 col-lg-6 ">
+          <div class="single_delicious mb-5 d-flex align-items-center">
+              <div class="thumb">
+                  <img src="./img/red-spicy-bbq-chicken-starter4.jpg" width="200px" alt="">
+              </div>
+              <div class="info">
+                  <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >BBQ Pork</h3>
+                  <p>Great way to make your business appear trust and relevant.</p>
+                  <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star  fs-5" ></i><i class="fa fa-star  fs-5" ></i>1620 reviews</p>
+                  <h4 style="color: red;">-&#8377;180.00</h4>
+                  <a href="#" class="btn btn-warning">Order</a>
+              </div>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <hr>
+    <hr>
 
-      
-      <section id="Lunch">
-        <h2 class="text-center mt-4 mb-5"><span style="font-family: pacifico;">Lunch</span></h2>
-        <div class="row">
-          <div class="col-xl-6 col-md-12 col-lg-6 ">
-            <div class="single_delicious mb-5 d-flex align-items-center">
-                <div class="thumb">
-                    <img src="./img/Lunch1.png" width="200px" alt="">
-                </div>
-                <div class="info">
-                    <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Crispy Shredded Beef</h3>
-                    <p>Great way to make your business appear trust and relevant.</p>
-                    <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star  fs-5" ></i>1659 reviews</p>
-                    <h4 style="color: red;">-&#8377;200.00</h4>
-                    <a href="#" class="btn btn-warning">Order</a>
-                </div>
-            </div>
-          </div>
 
-          <div class="col-xl-6 col-md-12 col-lg-6 ">
-            <div class="single_delicious mb-5 d-flex align-items-center">
-                <div class="thumb">
-                    <img src="./img/Lunch2.png" width="200px" alt="">
-                </div>
-                <div class="info">
-                    <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Slurp Noodles</h3>
-                    <p>Great way to make your business appear trust and relevant.</p>
-                    <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating  fs-5" ></i>1836 reviews</p>
-                    <h4 style="color: red;">-&#8377;150.00</h4>
-                    <a href="#" class="btn btn-warning">Order</a>
-                </div>
-            </div>
-          </div>
-
-          <div class="col-xl-6 col-md-12 col-lg-6 ">
-            <div class="single_delicious mb-5 d-flex align-items-center">
-                <div class="thumb">
-                    <img src="./img/Lunch3.png" width="200px" alt="">
-                </div>
-                <div class="info">
-                    <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Taiwanese Briyani</h3>
-                    <p>Great way to make your business appear trust and relevant.</p>
-                    <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star  fs-5" ></i>650 reviews</p>
-                    <h4 style="color: red;">-&#8377;255.00</h4>
-                    <a href="#" class="btn btn-warning">Order</a>
-                </div>
-            </div>
-          </div>
-
-          <div class="col-xl-6 col-md-12 col-lg-6 ">
-            <div class="single_delicious mb-5 d-flex align-items-center">
-                <div class="thumb">
-                    <img src="./img/mixed-sushi-lunch4.jpg" width="200px" alt="">
-                </div>
-                <div class="info">
-                    <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Mixed Sushi set</h3>
-                    <p>Great way to make your business appear trust and relevant.</p>
-                    <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i>1348 reviews</p>
-                    <h4 style="color: red;">-&#8377;190.00</h4>
-                    <a href="#" class="btn btn-warning">Order</a>
-                </div>
-            </div>
+    <section id="Desserts">
+      <h2 data-aos="fade-up" data-aos-delay="500" data-aos-duration="900" class="text-center mt-4 mb-5"><span style="font-family: pacifico;">Desserts</span></h2>
+      <div class="row">
+        <div data-aos="fade-right" data-aos-delay="600" data-aos-duration="900" class="col-xl-6 col-md-12 col-lg-6 ">
+          <div class="single_delicious mb-5 d-flex align-items-center">
+              <div class="thumb">
+                  <img src="./img/suncake  deserts1.png" width="200px" alt="">
+              </div>
+              <div class="info">
+                  <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Sun Cake</h3>
+                  <p>Great way to make your business appear trust and relevant.</p>
+                  <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star  fs-5" ></i>650 reviews</p>
+                  <h4 style="color: red;">-&#8377;115.00</h4>
+                  <a href="#" class="btn btn-warning">Order</a>
+              </div>
           </div>
         </div>
-      </section>
 
-      <hr>
-
-      <section id="Dinner">
-        <h2 class="text-center mt-4 mb-5"><span style="font-family: pacifico;">Dinner</span></h2>
-        <div class="row">
-          <div class="col-xl-6 col-md-12 col-lg-6 ">
-            <div class="single_delicious mb-5 d-flex align-items-center">
-                <div class="thumb">
-                    <img src="./img/Dinner1.png" width="200px" alt="">
-                </div>
-                <div class="info">
-                    <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" > Ramen Bowl</h3>
-                    <p>Great way to make your business appear trust and relevant.</p>
-                    <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i>2589 reviews</p>
-                    <h4 style="color: red;">-&#8377;250.00</h4>
-                    <a href="#" class="btn btn-warning">Order</a>
-                </div>
-            </div>
-          </div>
-
-          <div class="col-xl-6 col-md-12 col-lg-6 ">
-            <div class="single_delicious mb-5 d-flex align-items-center">
-                <div class="thumb">
-                    <img src="./img/tagliatelle-pasta-with-tomatoes-chicken dinner2.jpg" width="200px" alt="">
-                </div>
-                <div class="info">
-                    <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Tagliatelle Pasta </h3>
-                    <p>Great way to make your business appear trust and relevant.</p>
-                    <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star  fs-5" ></i>1731 reviews</p>
-                    <h4 style="color: red;">-&#8377;130.00</h4>
-                    <a href="#" class="btn btn-warning">Order</a>
-                </div>
-            </div>
-          </div>
-
-          <div class="col-xl-6 col-md-12 col-lg-6 ">
-            <div class="single_delicious mb-5 d-flex align-items-center">
-                <div class="thumb">
-                    <img src="./img/dinner3.png" width="200px" alt="">
-                </div>
-                <div class="info">
-                    <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Teriyaki Ckicken Bowl</h3>
-                    <p>Great way to make your business appear trust and relevant.</p>
-                    <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating  fs-5" ></i>2156 reviews</p>
-                    <h4 style="color: red;">-&#8377;160.00</h4>
-                    <a href="#" class="btn btn-warning">Order</a>
-                </div>
-            </div>
-          </div>
-
-          <div class="col-xl-6 col-md-12 col-lg-6 ">
-            <div class="single_delicious mb-5 d-flex align-items-center">
-                <div class="thumb">
-                    <img src="./img/Dinner4.png" width="200px" alt="">
-                </div>
-                <div class="info">
-                    <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Indomie Mi Goreng</h3>
-                    <p>Great way to make your business appear trust and relevant.</p>
-                    <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star  fs-5" ></i>1958 reviews</p>
-                    <h4 style="color: red;">-&#8377;210.00</h4>
-                    <a href="#" class="btn btn-warning">Order</a>
-                </div>
-            </div>
+        <div data-aos="fade-left" data-aos-delay="600" data-aos-duration="900" class="col-xl-6 col-md-12 col-lg-6 ">
+          <div class="single_delicious mb-5 d-flex align-items-center">
+              <div class="thumb">
+                  <img src="./img/-bubble-tea-coffee deserts2.png" width="200px" alt="">
+              </div>
+              <div class="info">
+                  <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Bubble Ice Tea</h3>
+                  <p>Great way to make your business appear trust and relevant.</p>
+                  <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating  fs-5" ></i>3350 reviews</p>
+                  <h4 style="color: red;">-&#8377;60.00</h4>
+                  <a href="#" class="btn btn-warning">Order</a>
+              </div>
           </div>
         </div>
-      </section>
 
-      <hr>
-
-
-      <section id="Starter">
-        <h2 class="text-center mt-4 mb-5"><span style="font-family: pacifico;">Starters</span></h2>
-        <div class="row">
-          <div class="col-xl-6 col-md-12 col-lg-6 ">
-            <div class="single_delicious mb-5 d-flex align-items-center">
-                <div class="thumb">
-                    <img src="./img/Staer.png" width="200px" alt="">
-                </div>
-                <div class="info">
-                    <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Cutlery & Flatware Sets</h3>
-                    <p>Great way to make your business appear trust and relevant.</p>
-                    <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star fs-5" ></i><i class="fa fa-star  fs-5" ></i>1566 reviews</p>
-                    <h4 style="color: red;">-&#8377;110.00</h4>
-                    <a href="#" class="btn btn-warning">Order</a>
-                </div>
-            </div>
-          </div>
-
-          <div class="col-xl-6 col-md-12 col-lg-6 ">
-            <div class="single_delicious mb-5 d-flex align-items-center">
-                <div class="thumb">
-                    <img src="./img/starter2.jpg" width="200px" alt="">
-                </div>
-                <div class="info">
-                    <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Grilled Chicken</h3>
-                    <p>Great way to make your business appear trust and relevant.</p>
-                    <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star  fs-5" ></i><i class="fa fa-star  fs-5" ></i><i class="fa fa-star  fs-5" ></i>788 reviews</p>
-                    <h4 style="color: red;">-&#8377;190.00</h4>
-                    <a href="#" class="btn btn-warning">Order</a>
-                </div>
-            </div>
-          </div>
-
-          <div class="col-xl-6 col-md-12 col-lg-6 ">
-            <div class="single_delicious mb-5 d-flex align-items-center">
-                <div class="thumb">
-                    <img src="./img/Starter.png" width="200px" alt="">
-                </div>
-                <div class="info">
-                    <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Cicken Pokora</h3>
-                    <p>Great way to make your business appear trust and relevant.</p>
-                    <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star fs-5" ></i><i class="fa fa-star  fs-5" ></i>990 reviews</p>
-                    <h4 style="color: red;">-&#8377;100.00</h4>
-                    <a href="#" class="btn btn-warning">Order</a>
-                </div>
-            </div>
-          </div>
-
-          <div class="col-xl-6 col-md-12 col-lg-6 ">
-            <div class="single_delicious mb-5 d-flex align-items-center">
-                <div class="thumb">
-                    <img src="./img/red-spicy-bbq-chicken-starter4.jpg" width="200px" alt="">
-                </div>
-                <div class="info">
-                    <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >BBQ Pork</h3>
-                    <p>Great way to make your business appear trust and relevant.</p>
-                    <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star  fs-5" ></i><i class="fa fa-star  fs-5" ></i>1620 reviews</p>
-                    <h4 style="color: red;">-&#8377;180.00</h4>
-                    <a href="#" class="btn btn-warning">Order</a>
-                </div>
-            </div>
+        <div data-aos="fade-right" data-aos-delay="600" data-aos-duration="900" class="col-xl-6 col-md-12 col-lg-6 ">
+          <div class="single_delicious mb-5 d-flex align-items-center">
+              <div class="thumb">
+                  <img src="./img/deserts3.png" width="200px" alt="">
+              </div>
+              <div class="info">
+                  <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Chocolate Pastry</h3>
+                  <p>Great way to make your business appear trust and relevant.</p>
+                  <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i>2008 reviews</p>
+                  <h4 style="color: red;">-&#8377;150.00</h4>
+                  <a href="#" class="btn btn-warning">Order</a>
+              </div>
           </div>
         </div>
-      </section>
 
-      <hr>
-
-
-      <section id="Desserts">
-        <h2 class="text-center mt-4 mb-5"><span style="font-family: pacifico;">Desserts</span></h2>
-        <div class="row">
-          <div class="col-xl-6 col-md-12 col-lg-6 ">
-            <div class="single_delicious mb-5 d-flex align-items-center">
-                <div class="thumb">
-                    <img src="./img/suncake  deserts1.png" width="200px" alt="">
-                </div>
-                <div class="info">
-                    <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Sun Cake</h3>
-                    <p>Great way to make your business appear trust and relevant.</p>
-                    <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star  fs-5" ></i>650 reviews</p>
-                    <h4 style="color: red;">-&#8377;115.00</h4>
-                    <a href="#" class="btn btn-warning">Order</a>
-                </div>
-            </div>
-          </div>
-
-          <div class="col-xl-6 col-md-12 col-lg-6 ">
-            <div class="single_delicious mb-5 d-flex align-items-center">
-                <div class="thumb">
-                    <img src="./img/-bubble-tea-coffee deserts2.png" width="200px" alt="">
-                </div>
-                <div class="info">
-                    <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Bubble Ice Tea</h3>
-                    <p>Great way to make your business appear trust and relevant.</p>
-                    <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating  fs-5" ></i>3350 reviews</p>
-                    <h4 style="color: red;">-&#8377;60.00</h4>
-                    <a href="#" class="btn btn-warning">Order</a>
-                </div>
-            </div>
-          </div>
-
-          <div class="col-xl-6 col-md-12 col-lg-6 ">
-            <div class="single_delicious mb-5 d-flex align-items-center">
-                <div class="thumb">
-                    <img src="./img/deserts3.png" width="200px" alt="">
-                </div>
-                <div class="info">
-                    <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Chocolate Pastry</h3>
-                    <p>Great way to make your business appear trust and relevant.</p>
-                    <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i>2008 reviews</p>
-                    <h4 style="color: red;">-&#8377;150.00</h4>
-                    <a href="#" class="btn btn-warning">Order</a>
-                </div>
-            </div>
-          </div>
-
-          <div class="col-xl-6 col-md-12 col-lg-6 ">
-            <div class="single_delicious mb-5 d-flex align-items-center">
-                <div class="thumb">
-                    <img src="./img/desert4.png" width="200px" alt="">
-                </div>
-                <div class="info">
-                    <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Salted Chocolate CupCake</h3>
-                    <p>Great way to make your business appear trust and relevant.</p>
-                    <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star  fs-5" ></i>1080 reviews</p>
-                    <h4 style="color: red;">-&#8377;110.00</h4>
-                    <a href="#" class="btn btn-warning">Order</a>
-                </div>
-            </div>
+        <div data-aos="fade-left" data-aos-delay="600" data-aos-duration="900" class="col-xl-6 col-md-12 col-lg-6 ">
+          <div class="single_delicious mb-5 d-flex align-items-center">
+              <div class="thumb">
+                  <img src="./img/desert4.png" width="200px" alt="">
+              </div>
+              <div class="info">
+                  <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Salted Chocolate CupCake</h3>
+                  <p>Great way to make your business appear trust and relevant.</p>
+                  <p><i class="fa fa-star rating fs-5"></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star rating fs-5" ></i><i class="fa fa-star  fs-5" ></i>1080 reviews</p>
+                  <h4 style="color: red;">-&#8377;110.00</h4>
+                  <a href="#" class="btn btn-warning">Order</a>
+              </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-  </div>
+</div>
 </section>
 
-         <!-- Menu Section end -->
+       <!-- Menu Section end -->
 
 <!-- Contact Us Start -->
 
 <section id="ContactUs">
-  <h1 class="text-center mt-lg-5 mb-lg-5 mt-md-1 mb-md-3">Contact Us</h1>
-  <div class="container">
-  <div class="row">
-    <div class="col-lg-6 mb-md-3 mb-sm-3 mb-xs-3 ">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3885.516903418547!2d80.11944717484428!3d13.129761837200356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3a5262f3bfda42df%3A0x50229b52b64b180b!2sVaishnavi%20Nagar%2C%20Chennai%20-%20Tiruttani%20Hwy%2C%20Siva%20Sankarapuram%2C%20Santhipuram%2C%20Thirumullaivoyal%2C%20Chennai%2C%20Tamil%20Nadu%20600109!3m2!1d13.1296074!2d80.1250613!4m5!1s0x3a5262f2d9838c65%3A0x30d22f051c0170de!2sVGN%20Stafford%20Road%2C%20Poompozhil%20Nagar%2C%20Avadi%2C%20Tamil%20Nadu!3m2!1d13.130142699999999!2d80.11898289999999!5e0!3m2!1sen!2sin!4v1723881405179!5m2!1sen!2sin" width="600" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map-container"></iframe>
-    </div>
-    <div class="col-lg-6 mb-md-3 mb-sm-3">
-      <form action="#" class="formoutline">
-        <div class="mb-3">
-          <label for="fullName" class="form-label">Full Name</label>
-          <input type="text" class="form-control" id="fullName" placeholder="Full Name" required>
-        </div>
-        <div class="mb-3">
-          <label for="email" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="email" placeholder="Email" required>
-        </div>
-        <div class="mb-3">
-          <label for="mobileNumber" class="form-label">Mobile Number</label>
-          <input type="tel" class="form-control" id="mobileNumber" placeholder="Mobile Number" required>
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Reason for Contact</label>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="reason" id="reservationBooking" value="reservationBooking" required>
-            <label class="form-check-label" for="reservationBooking">
-              Reservation Booking
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="reason" id="bulkOrder" value="bulkOrder" required>
-            <label class="form-check-label" for="bulkOrder">
-              Bulk Order
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="reason" id="inquiry" value="inquiry" required>
-            <label class="form-check-label" for="inquiry">
-              Inquiry
-            </label>
-          </div>
-        </div>
-        <div class="mb-3">
-          <label for="address" class="form-label">Address</label>
-          <input type="text" class="form-control" id="address" placeholder="Address" required>
-        </div>
-        <div class="mb-3">
-          <label for="message" class="form-label">Message</label>
-          <textarea class="form-control" id="message" rows="3" placeholder="Your message here" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-    </div>
+<h1 data-aos="fade-up" data-aos-delay="500" data-aos-duration="900" class="text-center mt-lg-5 mb-lg-5 mt-md-1 mb-md-3">Contact Us</h1>
+<div class="container">
+<div class="row">
+  <div data-aos="fade-right" data-aos-delay="600" data-aos-duration="900" class="col-lg-6 mb-md-3 mb-sm-3">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3885.516903418547!2d80.11944717484428!3d13.129761837200356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3a5262f3bfda42df%3A0x50229b52b64b180b!2sVaishnavi%20Nagar%2C%20Chennai%20-%20Tiruttani%20Hwy%2C%20Siva%20Sankarapuram%2C%20Santhipuram%2C%20Thirumullaivoyal%2C%20Chennai%2C%20Tamil%20Nadu%20600109!3m2!1d13.1296074!2d80.1250613!4m5!1s0x3a5262f2d9838c65%3A0x30d22f051c0170de!2sVGN%20Stafford%20Road%2C%20Poompozhil%20Nagar%2C%20Avadi%2C%20Tamil%20Nadu!3m2!1d13.130142699999999!2d80.11898289999999!5e0!3m2!1sen!2sin!4v1723881405179!5m2!1sen!2sin" width="600" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
+  <div data-aos="fade-left" data-aos-delay="600" data-aos-duration="900" class="col-lg-6 mb-md-3 mb-sm-3">
+    <form action="#" class="formoutline">
+      <div class="mb-3">
+        <label for="fullName" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="fullName" placeholder="Full Name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Email" required>
+      </div>
+      <div class="mb-3">
+        <label for="mobileNumber" class="form-label">Mobile Number</label>
+        <input type="tel" class="form-control" id="mobileNumber" placeholder="Mobile Number" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Reason for Contact</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="reason" id="reservationBooking" value="reservationBooking" required>
+          <label class="form-check-label" for="reservationBooking">
+            Reservation Booking
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="reason" id="bulkOrder" value="bulkOrder" required>
+          <label class="form-check-label" for="bulkOrder">
+            Bulk Order
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="reason" id="inquiry" value="inquiry" required>
+          <label class="form-check-label" for="inquiry">
+            Inquiry
+          </label>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="address" class="form-label">Address</label>
+        <input type="text" class="form-control" id="address" placeholder="Address" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="3" placeholder="Your message here" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</div>
 </div>
 </section>
 
@@ -728,35 +729,38 @@
 <!-- Footer Section Start -->
 
 
- <section id="footer">
+<section id="footer">
 <footer class="bg-warning mt-5 p-5 ">
 <div class="container">
-  <div class="row text-center">
-    <div class="col-lg-3  mb-md-3 ">
-      <h3 style="font-family: pacifico;">Contact Us</h3>
-      <p><span class="fa-solid fa-location-dot me-2"></span>Location</p>
-      <p><span  class="fa-solid fa-phone me-2"></span>Call +91 9042062072</p>
-      <p><span class="fa-regular fa-envelope me-2"></span>tanianrestobar@gmail.com</p>
-    </div>
-
-    <div class="col-lg-6 mb-md-3  ">
-      <h3 style="font-family: pacifico;">Tainan Restobar</h3>
-      <p>Tainan Restobar is the perfect place to savor delicious flavors and create lasting memories. Join us and discover why Tainan Restobar is a beloved spot for both locals and visitors alike.</p>
-      <a href="https://www.facebook.com/dhanesh.perumal"><i class="fa-brands fa-facebook icon"></i></a><a href="https://www.instagram.com/always_dhanesh_/"><i class="fa-brands fa-instagram icon"></i></a><a href=""><i class="fa-brands fa-youtube icon"></i></a><a href="https://www.linkedin.com/in/dhaneshperumal-r-4a41bb218/"><i class="fa-brands fa-linkedin icon"></i></a>
-    </div>
-
-    <div class="col-lg-3  ">
-      <h3 style="font-family: pacifico;">Opening Hours</h3>
-      <p><span>Everyday</span></p>
-      <p>08.00 Am-10.00Pm</p>
-    </div>
+<div class="row text-center">
+  <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="900" class="col-lg-3  mb-md-3 ">
+    <h3 style="font-family: pacifico;">Contact Us</h3>
+    <p><span class="fa-solid fa-location-dot me-2"></span>Location</p>
+    <p><span  class="fa-solid fa-phone me-2"></span>Call +91 9042062072</p>
+    <p><span class="fa-regular fa-envelope me-2"></span>tanianrestobar@gmail.com</p>
   </div>
-  <p class="text-center mt-5">© 2024 Copy Rights  </p>
-  <p></p>
+
+  <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="900" class="col-lg-6 mb-md-3  ">
+    <h3 style="font-family: pacifico;">Tainan Restobar</h3>
+    <p>Tainan Restobar is the perfect place to savor delicious flavors and create lasting memories. Join us and discover why Tainan Restobar is a beloved spot for both locals and visitors alike.</p>
+    <a href="https://www.facebook.com/dhanesh.perumal"><i class="fa-brands fa-facebook icon"></i></a><a href="https://www.instagram.com/always_dhanesh_/"><i class="fa-brands fa-instagram icon"></i></a><a href=""><i class="fa-brands fa-youtube icon"></i></a><a href="https://www.linkedin.com/in/dhaneshperumal-r-4a41bb218/"><i class="fa-brands fa-linkedin icon"></i></a>
+  </div>
+
+  <div data-aos="fade-up" data-aos-delay="700" data-aos-duration="900" class="col-lg-3  ">
+    <h3 style="font-family: pacifico;">Opening Hours</h3>
+    <p><span>Everyday</span></p>
+    <p>08.00 Am-10.00Pm</p>
+  </div>
+</div>
+<p data-aos="fade-up" data-aos-delay="650" data-aos-duration="900" class="text-center mt-5">© 2024 Copy Rights  </p>
+<p></p>
 </div>
 
 </footer>
 </section>
+
+
+
 
 
 <!-- Footer section end -->
@@ -917,5 +921,9 @@ function getRandomNumber(){
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Font Awesome JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
